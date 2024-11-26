@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "bob",
+      "role": "Editor",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "dev",
+      "role": "admin",
+      "status": "Active"
+    }
+  ],
+  "roles": [
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Author",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "admin",
+      "permissions": [
+        "Read",
+        "Delete",
+        "Write"
+      ]
+    }
+  ]
+}
